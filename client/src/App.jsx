@@ -34,7 +34,7 @@ import CustomOrderDetails from "./pages/CustomOrderDetails";
 import AdminInstallmentSettings from "./pages/AdminInstallmentSettings";
 import AdminChat from "./components/AdminChat";
 import AdminCustomer from "./pages/AdminCustomer";
-import AdminInventory from "./pages/adminInventory";
+import AdminInventory from "./pages/AdminInventory";
 import AdminReports from "./pages/AdminReport";
 function App() {
   return (
