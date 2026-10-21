@@ -9,7 +9,7 @@ import {
   Cart,
   Shop,
   Checkout,
-  OrderConfirmation,
+  OrderConfirmations,
   MyOrders,
   TrackOrder,
   Account,
@@ -105,7 +105,7 @@ function App() {
 
           <Route
             path="/order-confirmation/:orderId"
-            element={<OrderConfirmation />}
+            element={<OrderConfirmations />}
           />
 
           <Route path="/my-orders" element={<MyOrders />} />

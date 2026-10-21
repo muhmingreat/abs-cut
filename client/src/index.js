@@ -3,7 +3,7 @@ export { default as ProductDetails } from "./pages/ProductDetails";
 export { default as Home } from "./pages/Home";
 export { default as Shop } from "./pages/Shop";
 export { default as Checkout } from "./pages/Checkout";
-export { default as OrderConfirmation } from "./pages/OrderConfirmation";
+export { default as OrderConfirmations } from "./pages/OrderConfirmations";
 export { default as MyOrders } from "./pages/MyOrder";
 export { default as TrackOrder } from "./pages/TrackOrder";
 export { default as Account } from "./pages/Account";
