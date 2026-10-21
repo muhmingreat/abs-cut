@@ -5,7 +5,7 @@ import { Link, useParams, useNavigate } from "react-router-dom";
 import { apiRequest } from "../services/api";
 import LoadingScreen from "./LoadingScreen";
 import ReceiptModal from "./ReceiptModal";
-import "./OrderConfirmation.css";
+import "./OrderConfirmations.css";
 
 function OrderConfirmation() {
   const { orderId } = useParams();
