@@ -1,41 +1,83 @@
+// import { Routes, Route } from "react-router-dom";
+
+// import ProductDetails from "./pages/ProductDetails";
+// import Navbar from "./components/Navbar";
+// import ChatWidget from "./components/ChatWidget";
+// import Home from "./pages/Home";
+// import Cart from "./components/Cart";
+// import Shop from "./pages/Shop";
+// import Checkout from "./pages/Checkout";
+// import OrderConfirmation from "./pages/OrderConfirmation";
+// import MyOrders from "./pages/MyOrder";
+// import TrackOrder from "./pages/TrackOrder";
+// import Account from "./pages/Account";
+// import CustomOrder from "./pages/CustomOrder";
+// import CustomOrderConfirmation from "./pages/CustomOrderConfirmation";
+// import MyCustomOrders from "./pages/MyCustomOrders";
+// import Contact from "./pages/Contact";
+// import About from "./pages/About";
+// import Register from "./pages/Register";
+// import Login from "./pages/Login";
+// import ProtectedRoute from "./components/ProtectedRoute";
+// import PaymentCallback from "./pages/PaymentCallback";
+// import AdminRoute from "./components/AdminRoute";
+// import AdminDashboard from "./pages/AdminDashboard";
+// import AdminOrders from "./pages/AdminOrders";
+// import AdminOrderDetails from "./pages/AdminOrderDetails";
+// import AdminProducts from "./pages/AdminProducts";
+// import AdminProductDetails from "./pages/AdminProductDetails";
+// import AdminPayments from "./pages/AdminPayments";
+// import AdminProductCreate from "./pages/AdminProductCreate";
+// import AdminCustomOrders from "./pages/AdminCustomOrders";
+// import AdminCustomOrderDetails from "./pages/AdminCustomOrderDetails";
+// import CustomOrderDetails from "./pages/CustomOrderDetails";
+// import AdminInstallmentSettings from "./pages/AdminInstallmentSettings";
+// import AdminChat from "./components/AdminChat";
+// import AdminCustomer from "./pages/AdminCustomer";
+// import AdminInventory from "./pages/AdminInventory";
+// import AdminReports from "./pages/AdminReport";
+
 import { Routes, Route } from "react-router-dom";
 
-import ProductDetails from "./pages/ProductDetails";
-import Navbar from "./components/Navbar";
-import ChatWidget from "./components/ChatWidget";
-import Home from "./pages/Home";
-import Cart from "./components/Cart";
-import Shop from "./pages/Shop";
-import Checkout from "./pages/Checkout";
-import OrderConfirmation from "./pages/OrderConfirmation";
-import MyOrders from "./pages/MyOrder";
-import TrackOrder from "./pages/TrackOrder";
-import Account from "./pages/Account";
-import CustomOrder from "./pages/CustomOrder";
-import CustomOrderConfirmation from "./pages/CustomOrderConfirmation";
-import MyCustomOrders from "./pages/MyCustomOrders";
-import Contact from "./pages/Contact";
-import About from "./pages/About";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
-import ProtectedRoute from "./components/ProtectedRoute";
-import PaymentCallback from "./pages/PaymentCallback";
-import AdminRoute from "./components/AdminRoute";
-import AdminDashboard from "./pages/AdminDashboard";
-import AdminOrders from "./pages/AdminOrders";
-import AdminOrderDetails from "./pages/AdminOrderDetails";
-import AdminProducts from "./pages/AdminProducts";
-import AdminProductDetails from "./pages/AdminProductDetails";
-import AdminPayments from "./pages/AdminPayments";
-import AdminProductCreate from "./pages/AdminProductCreate";
-import AdminCustomOrders from "./pages/AdminCustomOrders";
-import AdminCustomOrderDetails from "./pages/AdminCustomOrderDetails";
-import CustomOrderDetails from "./pages/CustomOrderDetails";
-import AdminInstallmentSettings from "./pages/AdminInstallmentSettings";
-import AdminChat from "./components/AdminChat";
-import AdminCustomer from "./pages/AdminCustomer";
-import AdminInventory from "./pages/AdminInventory";
-import AdminReports from "./pages/AdminReport";
+import {
+  ProductDetails,
+  Navbar,
+  ChatWidget,
+  Home,
+  Cart,
+  Shop,
+  Checkout,
+  OrderConfirmation,
+  MyOrders,
+  TrackOrder,
+  Account,
+  CustomOrder,
+  CustomOrderConfirmation,
+  MyCustomOrders,
+  Contact,
+  About,
+  Register,
+  Login,
+  ProtectedRoute,
+  PaymentCallback,
+  AdminRoute,
+  AdminDashboard,
+  AdminOrders,
+  AdminOrderDetails,
+  AdminProducts,
+  AdminProductDetails,
+  AdminPayments,
+  AdminProductCreate,
+  AdminCustomOrders,
+  AdminCustomOrderDetails,
+  CustomOrderDetails,
+  AdminInstallmentSettings,
+  AdminChat,
+  AdminCustomer,
+  AdminInventory,
+  AdminReports,
+} from "./index";
+
 function App() {
   return (
     <>
@@ -51,11 +93,10 @@ function App() {
         <Route path="/shop" element={<Shop />} />
 
         <Route path="/about" element={<About />} />
-        
 
         <Route path="/contact" element={<Contact />} />
         <Route path="/payment/callback" element={<PaymentCallback />} />
-{/* "09071697982" */}
+        {/* "09071697982" */}
         <Route path="/register" element={<Register />} />
 
         <Route path="/login" element={<Login />} />
