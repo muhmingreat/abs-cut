@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { apiRequest } from "../services/api";
+import Footer from "../components/Footer";
 import "./Home.css";
 
 function Home() {
@@ -307,14 +308,7 @@ function Home() {
         </div>
       </section>
 
-      {/* FOOTER BRAND STRIP */}
-      <div className="abs-brand-strip">
-        <span>ABS CUT</span>
-        <span className="abs-brand-strip-star">✳</span>
-        <span>STYLE MADE FOR YOU</span>
-        <span className="abs-brand-strip-star">✳</span>
-        <span>TIMELESS BY DESIGN</span>
-      </div>
+       <Footer />
     </main>
   );
 }
